@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class PhraseSolver
 {
   /* your code here - attributes */
+  private String solvedPhrase;
 
   /* your code here - constructor(s) */ 
 
