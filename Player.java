@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 /*
  * Activity 2.5.2
  * 
@@ -11,7 +14,16 @@ public class Player
   private int points;
 
   /* your code here - constructor(s) */
-  Player(String inputName) {
+  public Player() {
+    System.out.println("Enter Player Name: ");
+    Scanner scr = new Scanner(System.in);
+    String newName = scr.nextLine();
+
+    name = newName;
+    System.out.print("Welcome to the game " + name);
+  }
+
+  public Player(String inputName) {
     name = inputName;
     points = 0;
 

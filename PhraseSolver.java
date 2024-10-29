@@ -9,9 +9,22 @@ public class PhraseSolver
 {
   /* your code here - attributes */
   private String solvedPhrase;
+  private Player p1;
+  private Player p2;
+  private Board gameBoard;
 
   /* your code here - constructor(s) */ 
+  public PhraseSolver() {
+    Player player1 = new Player();
+    Player player2 = new Player();
 
+    p1 = player1;
+    p2 = player2;
+
+    Board gB = new Board();
+
+    gameBoard = gB;
+  }
   /* your code here - accessor(s) */
   
   /* your code here - mutator(s)  */
