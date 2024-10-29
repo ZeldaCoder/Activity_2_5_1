@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /*
  * Activity 2.5.2
- * 
+ * By Jedediah Muthalaly, Gavin Katz
  * A Player class the PhraseSolverGame
  */
 

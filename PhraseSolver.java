@@ -1,6 +1,6 @@
 /*
  * Activity 2.5.2
- *
+ * By Jedediah Muthalaly, Gavin Katz
  *  The PhraseSolver class the PhraseSolverGame
  */
 import java.util.Scanner;

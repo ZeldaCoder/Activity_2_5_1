@@ -1,6 +1,6 @@
 /*
  * Activity 2.5.2
- *
+ * By Jedediah Muthalaly, Gavin Katz
  * A Board class the PhraseSolverGame
  */
 import java.io.File;
