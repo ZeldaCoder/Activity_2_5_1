@@ -26,8 +26,30 @@ public class PhraseSolver
     gameBoard = gB;
   }
   /* your code here - accessor(s) */
+  public Player getP1() {
+    return p1;
+  }
+  
+  public Player getP2() {
+    return p2;
+  }
+  
+  public Board getGameBoard() {
+    return gameBoard;
+  }
   
   /* your code here - mutator(s)  */
+  public void setP1(Player player) {
+    p1 = player;
+  }
+  
+  public void setP2(Player player) {
+    p2 = player;
+  }
+  
+  public void setGameBoard(Board board) {
+    gameBoard = board;
+  }
 
   public void play()
   {
